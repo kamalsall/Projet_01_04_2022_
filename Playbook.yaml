@@ -1,0 +1,8 @@
+- hosts : servers
+  remote_user: root
+  tasks : 
+      - name : Assurez que le package HTTPd est installe
+        yum:
+          name : httpd 
+          state : latest 
+          become : true
