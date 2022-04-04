@@ -1,4 +1,4 @@
-all:
-  servers:
+
+    [servers]
     192.168.115.139 ansible_user=kamal 
     
